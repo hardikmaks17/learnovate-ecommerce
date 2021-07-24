@@ -1,0 +1,94 @@
+/* Begin: Header Part */
+    .my-navbar {
+        margin: 0 auto;
+    }
+/* End: Header Part */
+
+
+/* Begin: Main Part */
+    img {
+        border-radius: 5px;
+        width: 250px;
+        height: 170px;
+        /* display: none; */
+    }
+
+    .gif-holder {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 1em;
+        border-radius: 20px;
+        box-shadow: 0 0 15px #bbb;
+    }
+
+    .model-gif-holder {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 1em;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: inset 0 0 20px #fff;
+    }
+
+    .modal-content {
+        background-color: #eee;
+    }
+    
+    .m-model-about li {
+        color: #828388;
+        margin: 1em 0;
+    }
+
+    .m-model-title {
+        font-family: "Montserrat, sans-serif";
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    @media screen and (min-width: 375px) {
+        .row {
+            margin: 0 auto;
+        }
+    }
+/* End: Main Part */
+
+/* Begin: Footer Part */
+    footer a {
+        color: #fff;
+    }
+
+    .footer-social-ul {
+        padding: 0;
+    }
+
+    .footer-social-item {
+        display: inline;
+        list-style: none;
+        margin: 0 15px;
+    }
+
+    .footer-social-title {
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    .footer-icon {
+        font-size: 1.75em;
+        color: #ddd;
+    }
+
+    .my-copyright {
+        padding: 0;
+        margin: 0;
+        padding-bottom: 1em;
+    }
+    .my-footer, .my-social-username {
+        text-align: center;
+        color: #fff;
+        font-size: 1em;
+    }
+
+    .my-social-username:hover {
+        color: pink;
+    }
+/* End: Footer Part */
