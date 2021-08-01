@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>About | Maks Portfolio</title>
+	<title>Maks Resume</title>
 	<!-- CSS Files -->
 	<link rel="stylesheet" type="text/css" href="assets/css/task5.css">
 	<!-- Font Awesome -->
@@ -16,33 +16,10 @@
 	<header>
 		<nav class="navbar">
 			<div class="nav-brand">
-				<span>MAKS</span>
-			</div>
-			<hr>
-			<div class="nav-container">
-				<div class="nav-telephone nav-container-item">
-					<a class="global-remove-text-decoration" href="tel:+918999903113"><i class="fas fa-phone-alt nav-telephone-icon"></i>+91 89999 03113</a>
-				</div>
-				<div class="nav-tab nav-container-item">
-					<ul class="nav-ul global-ul">
-						<li class="nav-item global-list"><a class="global-remove-text-decoration" href="index.html">Home</a></li>
-						<li class="nav-item global-list"><a class="global-remove-text-decoration" href="blog.html">Blog</a></li>
-						<li class="nav-item global-list"><a class="global-remove-text-decoration" href="project.html">Project</a></li>
-						<li class="nav-item global-list"><a class="global-remove-text-decoration" href="gallery.html">Gallery</a></li>
-						<li class="nav-item global-list"><a class="global-remove-text-decoration" href="about.html">About</a></li>
-						<li class="nav-item global-list"><a class="global-remove-text-decoration" href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-				<div class="nav-social nav-container-item">
-					<ul class="social-ul global-ul">
-						<li class="social-item global-list"><a class="global-remove-text-decoration" href="https://linkedin.com/in/hardikmaks17" target="_blank"><i class="fab fa-linkedin header-icon"></i></a></li>
-						<li class="social-item global-list"><a class="global-remove-text-decoration" href="https://github.com/hardikmaks17" target="_blank"><i class="fab fa-github header-icon"></i></a></li>
-						<li class="social-item global-list"><a class="global-remove-text-decoration" href="https://instagram.com/hardikmaks17" target="_blank"><i class="fab fa-instagram header-icon"></i></a></li>
-						<li class="social-item global-list"><a class="global-remove-text-decoration" href="https://wa.me/+918999903113" target="_blank"><i class="fab fa-whatsapp header-icon"></i></a></li>
-					</ul>
-				</div>
+				<span>MAKS RESUME</span>
 			</div>
 		</nav>
+		<hr class="nav-horizontal-line">
 	</header>
 	<!-- End : HEADER Part -->
 
@@ -94,6 +71,19 @@
 
 		<!-- Begin : Resume Section -->
 		<section class="resume" id="resume">
+
+			<!-- Begin : Career-Objective Div -->
+			<div class="education-objective">
+				<div class="resume-header">
+					<span>Career Objective</span>
+					<hr class="resume-horizontal-line">
+				</div>
+				<div class="education-objective-body">
+					<p>To secure a challenging position that utilizes my years of experience, while allowing me the opportunity to grow professionally. I offer strong interpersonal skills to develop global customer solutions with thought leadership and integrity, excellent interpersonal, oral and written communication and presentation skills, functioning well both independently and collaboratively with an outgoing personality. My goal is to become a valued asset.</p>
+				</div>
+			</div>
+			<!-- End : Career-Objective Div -->
+
 			<!-- Begin : Skill-Section Div -->
 			<div class="skill-section" id="skill-section">
 				<div class="resume-header">
@@ -189,32 +179,53 @@
 					<hr class="resume-horizontal-line">
 				</div>
 				<div class="education-body" id="education-body">
-					<div class="education-grid">
-						<div class="education-grid-item-1 education-card">
-							<span class="education-duration">2018-2022</span>
-							<span class="education-stream">Computer Science & Engineering</span>
-							<span class="education-name">Parul University</span>
-						</div>
-						<div class="education-grid-item-2">
-							<hr class="education-vertical-line">
-						</div>
-						<div class="education-grid-item-3 education-card">
-							<span class="education-duration">2016-2018</span>
-							<span class="education-stream">Higher Education (12th Science)</span>
-							<span class="education-name">Krishna International Science School</span>
-						</div>
-						<div class="education-grid-item-4">
-							<hr class="education-vertical-line">
-						</div>
-						<div class="education-grid-item-5 education-card">
-							<span class="education-duration">2004-2016</span>
-							<span class="education-stream">Primary and Secondary Education</span>
-							<span class="education-name">Little Star English Medium School</span>
-						</div>
-					</div>
+					<table class="education-table">
+						<thead>
+							<tr>
+								<th>Level of Degree</th>
+								<th>Institute</th>
+								<th>Year of Passing</th>
+								<th>Percentage</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Secondary Education (10th Standard)</td>
+								<td>Little Star English Medium School</td>
+								<td>2016</td>
+								<td>73%</td>
+							</tr>
+							<tr>
+								<td>Higher Education (12th Science)</td>
+								<td>Krishna International Science School</td>
+								<td>2018</td>
+								<td>78%</td>
+							</tr>
+							<tr>
+								<td>Computer Science & Engineering</td>
+								<td>Parul University</td>
+								<td>2022</td>
+								<td>85%</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<!-- End : Education-Section Div -->
+
+			<!-- Begin : Declaration-Section Div -->
+			<div class="education-declaration">
+				<div class="resume-header">
+					<span>DECLARATION</span>
+					<hr class="resume-horizontal-line">
+				</div>
+				<div class="education-declaration-body">
+					<p>I hereby declare that all the details mentioned above are in accordance with the truth and fact as per my knowledge and I hold the responsibility for the correctness of the above-mentioned particulers.</p>
+					<span class="education-declaration-sign">Signed: Hardik Makwana</span>
+				</div>
+			</div>
+			<!-- End : Declaration-Section Div -->
+
 		</section>
 		<!-- End : Resume Section -->
 	</main>

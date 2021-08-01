@@ -297,6 +297,26 @@
             background-color: #000;
         }
 
+        /* Begin : Declaration-Section Div */
+
+            .education-objective {
+                width: 85vw;
+                margin: 0 auto;
+                padding-top: 2em;
+            }
+
+            .education-objective-body {
+                width: 85vw;
+                text-align: justify;
+                box-sizing: border-box;
+                margin: 0 auto;
+                padding: 1em;
+                background-color: #fff;
+                box-shadow: 0 2.5px 5px #999;
+            }
+
+        /* End : Declaration-Section Div */
+
         /* Begin : Skill-Section Div */
 
             .skill-section {
@@ -469,12 +489,36 @@
         /* Begin : Education-Section Div */
 
             .education-section {
-                padding-bottom: 5em;
+                padding-bottom: 2.5em;
             }
 
             .education-body {
                 width: 85vw;
                 margin: 0 auto;
+                overflow-x: auto;
+            }
+
+            .education-table {
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            table th {
+                background-color: black;
+                color: white;
+            }
+
+            table tr {
+                background-color: #fff;
+            }
+            
+            th, td {
+                padding: 1em;
             }
 
             .education-card {
@@ -596,6 +640,35 @@
             }
 
         /* End : Education-Section Div */
+
+        /* Begin : Declaration-Section Div */
+
+            .education-declaration {
+                width: 85vw;
+                margin: 0 auto;
+                padding-bottom: 4em;
+            }
+
+            .education-declaration-body {
+                width: 85vw;
+                text-align: justify;
+                box-sizing: border-box;
+                margin: 0 auto;
+                padding: 1em;
+                background-color: #fff;
+                box-shadow: 0 2.5px 5px #999;
+            }
+            
+            .education-declaration-sign {
+                display: block;
+                text-align: center;
+                margin: 2em 0 1em 0;
+                font-size: 1.25em;
+                font-weight: 600;
+                /* border: 1px solid red; */
+            }
+
+        /* End : Declaration-Section Div */
 
     /* End - RESUME Section */
 
