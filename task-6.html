@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title for Webpage -->
+    <title>Job Application Form | Maks</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&family=Ubuntu:wght@300;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- External StyleSheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/task4.css">
+
+</head>
+
+<body>
+
+    <!--* Begin - HEADER Part -->
+    <header class="header" id="header">
+        <nav class="navbar navbar-dark bg-dark py-3">
+            <div class="my-navbar">
+                <a class="navbar-brand" href="#">Job Application Form</a>
+            </div>
+        </nav>
+    </header>
+    <!--* End - HEADER Part -->
+
+    <!--* Begin - MAIN Part -->
+    <main class="main" id="main">
+        <div class="container my-4">
+            <form>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="first-name" class="col-sm-2 col-form-label">Full Name :</label>
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                            id="first-name">
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="Middle name" aria-label="Middle name">
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="inputMonth" class="col-sm-2 col-form-label">Birth Date :</label>
+                    </div>
+                    <div class="col-sm">
+                        <select id="inputMonth" class="form-select" placeholder="Month">
+                            <option selected>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <select id="inputDay" class="form-select">
+                            <option selected>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <select id="inputYear" class="form-select">
+                            <option selected>Year</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                            <option>2006</option>
+                            <option>2007</option>
+                            <option>2008</option>
+                            <option>2009</option>
+                            <option>2010</option>
+                            <option>2011</option>
+                            <option>2012</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="radioMale" class="form-label col-form-label">Gender :</label>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radioMale">
+                            <label class="form-check-label" for="radioMale">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radioFemale">
+                            <label class="form-check-label" for="radioFemale">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="inputEmail" class="form-label col-form-label">Email Address :</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="inputTel" class="form-label col-form-label">Mobile Number :</label>
+                        <input type="tel" class="form-control" id="inputTel">
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="linkedIn" class="col-sm-2 col-form-label">Social Links :</label>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-group">
+                            <label for="linkedIn">
+                                <div class="input-group-text">LinkedIn</div>
+                            </label>
+                            <input type="url" class="form-control" id="linkedIn"
+                                placeholder="https://linkedin.com/in/username">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-group">
+                            <label for="website">
+                                <div class="input-group-text">Website</div>
+                            </label>
+                            <input type="url" class="form-control" id="website"
+                                placeholder="https://username.github.io/">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-group">
+                            <label for="github">
+                                <div class="input-group-text">Github</div>
+                            </label>
+                            <input type="url" class="form-control" id="github"
+                                placeholder="https://github.com/username">
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <!-- <div class="col-12"> -->
+                    <label for="checkbox-html5" class="form-label col-form-label">List of Skills you have?</label>
+                    <div class="col col-md-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="checkbox-html5">
+                            <label class="form-check-label" for="checkbox-HTML5">html5</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="skill" id="checkbox-css3">
+                            <label class="form-check-label" for="checkbox-css3">CSS3</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="skill" id="checkbox-javaScript">
+                            <label class="form-check-label" for="checkbox-javaScript">JavaScript</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="skill" id="checkbox-bootstrap">
+                            <label class="form-check-label" for="checkbox-bootstrap">Bootstrap</label>
+                        </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="skill" id="checkbox-decision-making">
+                            <label class="form-check-label" for="checkbox-decision-making">Decision Making</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="skill"
+                                id="checkbox-critical-thinking">
+                            <label class="form-check-label" for="checkbox-critical-thinking">Critical Thinking</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="skill" id="checkbox-leadership">
+                            <label class="form-check-label" for="checkbox-leadership">Leadership</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="skill" id="checkbox-positive-ttitude">
+                            <label class="form-check-label" for="checkbox-positive-ttitude">Positive Attitude</label>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="radioEmployed" class="form-label col-form-label">What is your current employment
+                            status?</label>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="radioEmployed">
+                                <label class="form-check-label" for="radioEmployed">Employed</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="radioSelf-Employed">
+                                <label class="form-check-label" for="radioSelf-Employed">Self-Employed</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="radioUnemployed">
+                                <label class="form-check-label" for="radioUnemployed">Unemployed</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="radioStudent">
+                                <label class="form-check-label" for="radioStudent">Student</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="jobTitle" class="form-label col-form-label">What position are you applying
+                            for?</label>
+                        <select class="form-select" id="jobTitle">
+                            <option selected>Open this select menu</option>
+                            <option value="1">Marketing Specialist</option>
+                            <option value="2">Sales Manager</option>
+                            <option value="3">Product Lead</option>
+                            <option value="3">Software Developer</option>
+                            <option value="3">Application Developer</option>
+                            <option value="3">Web Developer</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="jobReference" class="form-label col-form-label">How did you hear about us?</label>
+                        <select class="form-select" id="jobReference">
+                            <option selected>Open this select menu</option>
+                            <option value="1">LinkedIn</option>
+                            <option value="2">Event</option>
+                            <option value="3">Social Media</option>
+                            <option value="3">Company Website</option>
+                            <option value="2">Family / Friend</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="resumeFile" class="form-label col-form-label">Upload Resume :</label>
+                        <input class="form-control" type="file" id="resumeFile">
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label for="reference-comments-questions" class="form-label col-form-label">Reference / Comments
+                            / Questions :</label>
+                        <textarea class="form-control" id="reference-comments-questions" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="row g-2 my-5">
+                    <div class="col-11 m-auto">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="gender" id="signature-disclaimer">
+                            <label class="form-check-label" for="signature-disclaimer">I certify that my answers are true and complete to the best of my knowledge. 
+                                If this application leads to employment, I understand that false or misleading information in my application or interview 
+                                may result in my employment being terminated.</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 p-1 mt-4">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--* End - MAIN Part -->
+
+    <!--* Begin - FOOTER Part -->
+    <footer class="footer" id="footer">
+        <div class="bg-dark my-footer pt-3">
+            <span class="footer-social-title">Follow Me at { @hardikmaks17 }</span>
+            <hr>
+            <ul class="footer-social-ul">
+                <li class="footer-social-item"><a href="https://linkedin.com/in/hardikmaks17" target="_blank"><i
+                            class="fab fa-linkedin footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://facebook.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-facebook footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://github.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-github footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://dribbble.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-dribbble footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://instagram.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-instagram footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://twitter.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-twitter footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://www.quora.com/profile/Hardik-Makwana-80"
+                        target="_blank"><i class="fab fa-quora footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://wa.me/+918999903113" target="_blank"><i
+                            class="fab fa-whatsapp footer-icon"></i></a></li>
+            </ul>
+            <hr>
+            <p class="my-copyright">
+                Made with <i class="fas fa-heart" style="color: red;"></i> by <a class="my-social-username"
+                    href="https://instagram.com/hardikmaks17" target="_blank">&#64;hardikmaks17</a>
+            </p>
+        </div>
+    </footer>
+    <!--* End - FOOTER Part -->
+
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
