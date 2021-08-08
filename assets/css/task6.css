@@ -6,7 +6,9 @@
 
 
 /* Begin: Main Part */
-
+.col-form-label {
+    font-weight: 500;
+}
 /* End: Main Part */
 
 /* Begin: Footer Part */

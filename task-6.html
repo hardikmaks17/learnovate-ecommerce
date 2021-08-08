@@ -24,7 +24,7 @@
         rel="stylesheet">
 
     <!-- External StyleSheets -->
-    <link rel="stylesheet" type="text/css" href="assets/css/task4.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/task6.css">
 
 </head>
 
@@ -44,9 +44,9 @@
     <main class="main" id="main">
         <div class="container my-4">
             <form>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
-                        <label for="first-name" class="col-sm-2 col-form-label">Full Name :</label>
+                        <label for="first-name" class="form-label col-form-label">Full Name :</label>
                     </div>
                     <div class="col-sm">
                         <input type="text" class="form-control" placeholder="First name" aria-label="First name"
@@ -59,9 +59,9 @@
                         <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
-                        <label for="inputMonth" class="col-sm-2 col-form-label">Birth Date :</label>
+                        <label for="inputMonth" class="form-label col-form-label">Birth Date :</label>
                     </div>
                     <div class="col-sm">
                         <select id="inputMonth" class="form-select" placeholder="Month">
@@ -144,7 +144,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="radioMale" class="form-label col-form-label">Gender :</label>
                     </div>
@@ -159,19 +159,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="inputEmail" class="form-label col-form-label">Email Address :</label>
                         <input type="email" class="form-control" id="inputEmail">
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="inputTel" class="form-label col-form-label">Mobile Number :</label>
                         <input type="tel" class="form-control" id="inputTel">
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="linkedIn" class="col-sm-2 col-form-label">Social Links :</label>
                     </div>
@@ -203,8 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row g-2">
-                    <!-- <div class="col-12"> -->
+                <div class="row g-2 my-4">
                     <label for="checkbox-html5" class="form-label col-form-label">List of Skills you have?</label>
                     <div class="col col-md-3">
                         <div class="form-check">
@@ -243,9 +242,8 @@
                             <label class="form-check-label" for="checkbox-positive-ttitude">Positive Attitude</label>
                         </div>
                     </div>
-                    <!-- </div> -->
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="radioEmployed" class="form-label col-form-label">What is your current employment
                             status?</label>
@@ -269,7 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="jobTitle" class="form-label col-form-label">What position are you applying
                             for?</label>
@@ -284,7 +282,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="jobReference" class="form-label col-form-label">How did you hear about us?</label>
                         <select class="form-select" id="jobReference">
@@ -297,30 +295,33 @@
                         </select>
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="resumeFile" class="form-label col-form-label">Upload Resume :</label>
                         <input class="form-control" type="file" id="resumeFile">
                     </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-2 my-4">
                     <div class="col-12">
                         <label for="reference-comments-questions" class="form-label col-form-label">Reference / Comments
                             / Questions :</label>
                         <textarea class="form-control" id="reference-comments-questions" rows="3"></textarea>
                     </div>
                 </div>
-                <div class="row g-2 my-5">
-                    <div class="col-11 m-auto">
+                <div class="row g-2 my-4 p-1" style="text-align: justify;">
+                    <div class="col-12 m-auto border border-danger rounded p-2">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="gender" id="signature-disclaimer">
-                            <label class="form-check-label" for="signature-disclaimer">I certify that my answers are true and complete to the best of my knowledge. 
-                                If this application leads to employment, I understand that false or misleading information in my application or interview 
+                            <input class="form-check-input" type="checkbox" name="gender" id="signature-disclaimer"
+                                required>
+                            <label class="form-check-label" for="signature-disclaimer">I certify that my answers are
+                                true and complete to the best of my knowledge.
+                                If this application leads to employment, I understand that false or misleading
+                                information in my application or interview
                                 may result in my employment being terminated.</label>
                         </div>
                     </div>
                 </div>
-                <div class="row g-2 p-1 mt-4">
+                <div class="row g-2 my-4">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </form>
