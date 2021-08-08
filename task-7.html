@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title for Webpage -->
+    <title>Student Stress Survey | Maks</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&family=Ubuntu:wght@300;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- External StyleSheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/task7.css">
+
+</head>
+
+<body>
+
+    <!--* Begin - HEADER Part -->
+    <header class="header" id="header">
+        <nav class="navbar navbar-dark bg-dark py-3">
+            <div class="my-navbar">
+                <a class="navbar-brand" href="#">Student Stress Survey</a>
+            </div>
+        </nav>
+    </header>
+    <!--* End - HEADER Part -->
+
+    <!--* Begin - MAIN Part -->
+    <main class="main" id="main">
+        <div class="container my-4">
+            <form>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="first-name" class="form-label col-form-label">Full Name (Optional) :</label>
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                            id="first-name">
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="inputMonth" class="form-label col-form-label">Birth Date :</label>
+                    </div>
+                    <div class="col-sm">
+                        <select id="inputMonth" class="form-select" placeholder="Month">
+                            <option selected>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <select id="inputDay" class="form-select">
+                            <option selected>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <select id="inputYear" class="form-select">
+                            <option selected>Year</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                            <option>2006</option>
+                            <option>2007</option>
+                            <option>2008</option>
+                            <option>2009</option>
+                            <option>2010</option>
+                            <option>2011</option>
+                            <option>2012</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="jobTitle" class="form-label col-form-label">Grade :</label>
+                        <select class="form-select" id="jobTitle">
+                            <option selected>Open this select menu</option>
+                            <option value="1">Freshman</option>
+                            <option value="2">Sophomore</option>
+                            <option value="3">Junior</option>
+                            <option value="3">Senior</option>
+                            <option value="3">Post-Graduate</option>
+                            <option value="3">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="radioMale" class="form-label col-form-label">Gender :</label>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radioMale">
+                            <label class="form-check-label" for="radioMale">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radioFemale">
+                            <label class="form-check-label" for="radioFemale">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radioTransgender">
+                            <label class="form-check-label" for="radioTransgender">Transgender</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radio-prefer-not-to-say">
+                            <label class="form-check-label" for="radio-prefer-not-to-say">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="radio-hw-school-night1" class="form-label col-form-label">1. How many hours do you spend to do your homework at a school night?</label>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwSchoolNight" id="radio-hw-school-night1">
+                                <label class="form-check-label" for="radio-hw-school-night1">Less than 1 hour</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwSchoolNight" id="radio-hw-school-night2">
+                                <label class="form-check-label" for="radio-hw-school-night2">1-2 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwSchoolNight" id="radio-hw-school-night3">
+                                <label class="form-check-label" for="radio-hw-school-night3">3-4 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwSchoolNight" id="radio-hw-school-night4">
+                                <label class="form-check-label" for="radio-hw-school-night4">4-5 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwSchoolNight" id="radio-hw-school-night5">
+                                <label class="form-check-label" for="radio-hw-school-night5">More than 5 hours</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="radio-hw-weekend1" class="form-label col-form-label">2. How many hours do you spend to do your homework during weekends?</label>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwWeekend" id="radio-hw-weekend1">
+                                <label class="form-check-label" for="radio-hw-weekend1">Less than 1 hour</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwWeekend" id="radio-hw-weekend2">
+                                <label class="form-check-label" for="radio-hw-weekend2">1-2 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwWeekend" id="radio-hw-weekend3">
+                                <label class="form-check-label" for="radio-hw-weekend3">3-4 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwWeekend" id="radio-hw-weekend4">
+                                <label class="form-check-label" for="radio-hw-weekend4">4-5 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="hwWeekend" id="radio-hw-weekend5">
+                                <label class="form-check-label" for="radio-hw-weekend5">More than 5 hours</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="radio-sleep-hour1" class="form-label col-form-label">3. How many hours of sleep do you usually get on a school night?</label>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sleepHours" id="radio-sleep-hour1">
+                                <label class="form-check-label" for="radio-sleep-hour1">Less than 7 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sleepHours" id="radio-sleep-hour2">
+                                <label class="form-check-label" for="radio-sleep-hour2">7-8 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sleepHours" id="radio-sleep-hour3">
+                                <label class="form-check-label" for="radio-sleep-hour3">8-9 hours</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sleepHours" id="radio-sleep-hour4">
+                                <label class="form-check-label" for="radio-sleep-hour4">More than 9 hours</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <label for="checkbox-cause-stress1" class="form-label col-form-label">4. Which of the following causes most stress? (select all that apply)</label>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress1">
+                            <label class="form-check-label" for="checkbox-cause-stress1">Student issues</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress2">
+                            <label class="form-check-label" for="checkbox-cause-stress2">Family issues</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress3">
+                            <label class="form-check-label" for="checkbox-cause-stress3">Romantic relationship issues</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress4">
+                            <label class="form-check-label" for="checkbox-cause-stress4">Sport/athletic activities</label>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress5">
+                            <label class="form-check-label" for="checkbox-cause-stress5">Financial issues</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress6">
+                            <label class="form-check-label" for="checkbox-cause-stress6">Friends issues</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress7">
+                            <label class="form-check-label" for="checkbox-cause-stress7">Health related issues</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="causeStress" id="checkbox-cause-stress8">
+                            <label class="form-check-label" for="checkbox-cause-stress8">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <label for="checkbox-notice-stress1" class="form-label col-form-label">5. What are the emotional or psychological consequences of stress that you have noticed so far?</label>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress1">
+                            <label class="form-check-label" for="checkbox-notice-stress1">Feeling heroic, euphoric or invulnerable</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress2">
+                            <label class="form-check-label" for="checkbox-notice-stress2">Anxiety or fear</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress3">
+                            <label class="form-check-label" for="checkbox-notice-stress3">Sadness</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress4">
+                            <label class="form-check-label" for="checkbox-notice-stress4">Depression</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress5">
+                            <label class="form-check-label" for="checkbox-notice-stress5">Feeling unappreciated</label>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress6">
+                            <label class="form-check-label" for="checkbox-notice-stress6">Restlessness</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress7">
+                            <label class="form-check-label" for="checkbox-notice-stress7">Feeling overwhelmed</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress8">
+                            <label class="form-check-label" for="checkbox-notice-stress8">Feeling isolated, lonely or lost</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress9">
+                            <label class="form-check-label" for="checkbox-notice-stress9">Irritability or anger problems</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="noticeStress" id="checkbox-notice-stress10">
+                            <label class="form-check-label" for="checkbox-notice-stress10">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <label for="checkbox-physical-effect1" class="form-label col-form-label">6. What are the psychical effects of stress that you experienced?</label>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect1">
+                            <label class="form-check-label" for="checkbox-physical-effect1">Increased heart rate/Tachycardia</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect2">
+                            <label class="form-check-label" for="checkbox-physical-effect2">Upset stomach, diarrhea</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect3">
+                            <label class="form-check-label" for="checkbox-physical-effect3">Loosing too much weight</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect4">
+                            <label class="form-check-label" for="checkbox-physical-effect4">Muffled hearing</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect5">
+                            <label class="form-check-label" for="checkbox-physical-effect5">Sore or aching muscles</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect6">
+                            <label class="form-check-label" for="checkbox-physical-effect6">Tunnel vision</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect7">
+                            <label class="form-check-label" for="checkbox-physical-effect7">Neck pain</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect8">
+                            <label class="form-check-label" for="checkbox-physical-effect8">Change in sexual desire</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect9">
+                            <label class="form-check-label" for="checkbox-physical-effect9">Flare up of allergies</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect10">
+                            <label class="form-check-label" for="checkbox-physical-effect10">Increase itching</label>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect11">
+                            <label class="form-check-label" for="checkbox-physical-effect11">Increased blood pressure</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect12">
+                            <label class="form-check-label" for="checkbox-physical-effect12">Getting too much weight</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect13">
+                            <label class="form-check-label" for="checkbox-physical-effect13">Sweating</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect14">
+                            <label class="form-check-label" for="checkbox-physical-effect14">Headache</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect15">
+                            <label class="form-check-label" for="checkbox-physical-effect15">Light sensitive vision</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect16">
+                            <label class="form-check-label" for="checkbox-physical-effect16">Lower back pain</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect17">
+                            <label class="form-check-label" for="checkbox-physical-effect17">Changing in menstrual cycle</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect18">
+                            <label class="form-check-label" for="checkbox-physical-effect18">Weakness for cold, flu</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect19">
+                            <label class="form-check-label" for="checkbox-physical-effect19">Hair loss</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="physicalEffects" id="checkbox-physical-effect20">
+                            <label class="form-check-label" for="checkbox-physical-effect20">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <label for="checkbox-cognitive-effect1" class="form-label col-form-label">7. What are the cognitive effects of stress that you experienced?</label>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect1">
+                            <label class="form-check-label" for="checkbox-cognitive-effect1">Memory problems</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect2">
+                            <label class="form-check-label" for="checkbox-cognitive-effect2">Difficulty in basic calculations</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect3">
+                            <label class="form-check-label" for="checkbox-cognitive-effect3">Concentration difficulty</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect4">
+                            <label class="form-check-label" for="checkbox-cognitive-effect4">None of the above</label>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect5">
+                            <label class="form-check-label" for="checkbox-cognitive-effect5">Disorientation</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect6">
+                            <label class="form-check-label" for="checkbox-cognitive-effect6">Confusion</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect7">
+                            <label class="form-check-label" for="checkbox-cognitive-effect7">Getting slower in thinking and analyzing</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="cognitiveEffects" id="checkbox-cognitive-effect8">
+                            <label class="form-check-label" for="checkbox-cognitive-effect8">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <label for="checkbox-social-effect1" class="form-label col-form-label">8. What are the social effects of stress that you experienced?</label>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect1">
+                            <label class="form-check-label" for="checkbox-social-effect1">Isolating from people</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect2">
+                            <label class="form-check-label" for="checkbox-social-effect2">Having problems in sharing ideas</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect3">
+                            <label class="form-check-label" for="checkbox-social-effect3">Critisizing</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect4">
+                            <label class="form-check-label" for="checkbox-social-effect4">Impatience</label>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect5">
+                            <label class="form-check-label" for="checkbox-social-effect5">Listening difficulties</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect6">
+                            <label class="form-check-label" for="checkbox-social-effect6">Blaming</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect7">
+                            <label class="form-check-label" for="checkbox-social-effect7">Increased intolerance</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="socialEffects" id="checkbox-social-effect8">
+                            <label class="form-check-label" for="checkbox-social-effect8">Difficulty in giving or accepting support</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <label for="checkbox-stress-solution1" class="form-label col-form-label">9. Which of the following do you apply when you feel stressed? (select all that apply)</label>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution1">
+                            <label class="form-check-label" for="checkbox-stress-solution1">Sleeping</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution2">
+                            <label class="form-check-label" for="checkbox-stress-solution2">Talking to someone</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution3">
+                            <label class="form-check-label" for="checkbox-stress-solution3">Drinking</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution4">
+                            <label class="form-check-label" for="checkbox-stress-solution4">Smoking</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution5">
+                            <label class="form-check-label" for="checkbox-stress-solution5">Computer games/console games</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution6">
+                            <label class="form-check-label" for="checkbox-stress-solution6">Social media</label>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution7">
+                            <label class="form-check-label" for="checkbox-stress-solution7">Taking a walk</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution8">
+                            <label class="form-check-label" for="checkbox-stress-solution8">Eating</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution9">
+                            <label class="form-check-label" for="checkbox-stress-solution9">Taking drugs</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution10">
+                            <label class="form-check-label" for="checkbox-stress-solution10">Unnecessary shopping</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution11">
+                            <label class="form-check-label" for="checkbox-stress-solution11">Going to gym/exercise</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="stressSolution" id="checkbox-stress-solution12">
+                            <label class="form-check-label" for="checkbox-stress-solution12">None of the above</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <div class="col-12">
+                        <label for="reference-comments-questions" class="form-label col-form-label">10. What do you think that the school authorities can do to decrease the stress level?</label>
+                        <textarea class="form-control" id="reference-comments-questions" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="row g-2 my-4">
+                    <button type="submit" class="btn btn-primary">Finish</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--* End - MAIN Part -->
+
+    <!--* Begin - FOOTER Part -->
+    <footer class="footer" id="footer">
+        <div class="bg-dark my-footer pt-3">
+            <span class="footer-social-title">Follow Me at { @hardikmaks17 }</span>
+            <hr>
+            <ul class="footer-social-ul">
+                <li class="footer-social-item"><a href="https://linkedin.com/in/hardikmaks17" target="_blank"><i
+                            class="fab fa-linkedin footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://facebook.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-facebook footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://github.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-github footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://dribbble.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-dribbble footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://instagram.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-instagram footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://twitter.com/hardikmaks17" target="_blank"><i
+                            class="fab fa-twitter footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://www.quora.com/profile/Hardik-Makwana-80"
+                        target="_blank"><i class="fab fa-quora footer-icon"></i></a></li>
+                <li class="footer-social-item"><a href="https://wa.me/+918999903113" target="_blank"><i
+                            class="fab fa-whatsapp footer-icon"></i></a></li>
+            </ul>
+            <hr>
+            <p class="my-copyright">
+                Made with <i class="fas fa-heart" style="color: red;"></i> by <a class="my-social-username"
+                    href="https://instagram.com/hardikmaks17" target="_blank">&#64;hardikmaks17</a>
+            </p>
+        </div>
+    </footer>
+    <!--* End - FOOTER Part -->
+
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+/* Begin: Header Part */
+.my-navbar {
+    margin: 0 auto;
+}
+/* End: Header Part */
+
+
+/* Begin: Main Part */
+.col-form-label {
+    font-weight: 500;
+}
+/* End: Main Part */
+
+/* Begin: Footer Part */
+footer a {
+    color: #fff;
+}
+
+.footer-social-ul {
+    padding: 0;
+}
+
+.footer-social-item {
+    display: inline;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.footer-social-title {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.footer-icon {
+    font-size: 1.75em;
+    color: #ddd;
+}
+
+.my-copyright {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1em;
+}
+.my-footer, .my-social-username {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+}
+
+.my-social-username:hover {
+    color: pink;
+}
+/* End: Footer Part */
